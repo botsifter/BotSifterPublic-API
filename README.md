@@ -34,7 +34,7 @@ The getFilterList endpoint provides a method to obtaining the bot/ua list in jso
 ### Return JSON Format
 Field | Description
 ----- | -----------
-Status | Contains the Status of the API call [success / failed / Unauthorized / ]
+Status | Contains the Status of the API call [success / failed / Unauthorized / Client over usage limit]
 Referrers / UserAgents | Contains the array of either Referrers or UserAgents
 DateAdded | The Date added to the list
 Rank | The Rank of the Bot/UA
